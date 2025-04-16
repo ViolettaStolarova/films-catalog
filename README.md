@@ -8,7 +8,7 @@
 
 1. Install Node.js
 2. Fork this repository: [https://github.com/ViolettaStolarova/films-catalog](https://github.com/ViolettaStolarova/films-catalog)
-3. Clone your newly created repo: `https://github.com/<%your_github_username%>/app/`
+3. Clone your newly created repo: `https://github.com/<%your_github_username%>/films-catalog/`
 4. Go to folder `films-catalog`
 5. To install all dependencies use `npm install`
 6. To run the app use `npm run dev`

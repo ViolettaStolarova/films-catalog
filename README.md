@@ -2,7 +2,7 @@
 
 ## Deploy
 
-[Link](https://best-application.netlify.app/)
+[Link](https://violettastolarova.github.io/films-catalog/dist/)
 
 ## Setup instruction
 

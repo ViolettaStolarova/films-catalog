@@ -10,10 +10,32 @@
 			href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 			rel="stylesheet"
 		/>
-		<title>Films Catalog</title>
+		<title>Films Land</title>
 	</head>
 	<body>
-		<div id="app"></div>
+		<div id="app">
+			<header class="header">
+				<img class="logo" src="./src/assets/img/logo.svg" alt="logo" />
+			</header>
+
+			<main>
+				<div class="main-container">
+					<select class="genre-filter">
+						<option value="all">Все жанры</option>
+					</select>
+
+					<div class="movies-wrapper">
+						<div class="movies-container">
+							<span class="loader"></span>
+							<div class="error-message"></div>
+						</div>
+
+						<button class="loadMore-button">Показать еще</button>
+					</div>
+				</div>
+			</main>
+		</div>
+
 		<script type="module" src="/src/index.ts"></script>
 	</body>
 </html>
